@@ -2,6 +2,9 @@
 gatherUsageStats = false
 
 [server]
-headless = false
+headless = true
 runOnSave = true
 port = 8501
+
+[runner]
+showEmailPrompt = false
